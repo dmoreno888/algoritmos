@@ -33,8 +33,7 @@ public class Sort{
                                 if (numbersSelectionSort[j] < numbersSelectionSort[index]){
                                         index = j;
                                 }
-                                else
-                                {
+                                else{
                                         //
                                 }
                         }
@@ -54,12 +53,14 @@ public class Sort{
                                 if(numbersInsertionSort[j] < numbersInsertionSort[j-1]){
                                         temporalNumber = numbersInsertionSort[j];
                                         numbersInsertionSort[j] = numbersInsertionSort[j-1];
-                                         numbersInsertionSort[j-1] = temporalNumber;
+                                        numbersInsertionSort[j-1] = temporalNumber;
+                                }
+                                else{
+                                        //
                                 }
                         }
                 }
 
                 System.out.println(Arrays.toString(numbersInsertionSort));
-
         }
 }
