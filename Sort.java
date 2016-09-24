@@ -2,10 +2,11 @@ import java.util.Arrays;
 
 public class Sort{ 
         public static void main(String args[]) {
-                //Bubble Sort
                 Integer[] numbersBubbleSort = {50,3,8,40,49, 2 ,6};
                 Integer[] numbersSelectionSort = {50,3,8,40,49, 2 ,6};
                 Integer[] numbersInsertionSort = {50,3,8,40,49, 2 ,6};
+                
+                //Bubble Sort
                 Integer numberLength = numbersBubbleSort.length;
                 Integer temporalNumber = 0;
 
